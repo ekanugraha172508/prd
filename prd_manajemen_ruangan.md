@@ -30,7 +30,7 @@ Sistem memiliki beberapa peran akses (Role-Based Access Control):
 ## 3. Kebutuhan Fungsional (Functional Requirements)
 
 ### 3.1 Manajemen Akun & Autentikasi
-- **FR-AUTH-01:** Sistem menerapkan kerangka *Login Multi-Tipe*. Pengguna **Internal (Pegawai)** diwajibkan *login* menggunakan integrasi *Single Sign-On* (SSO) yang mengacu pada *endpoint* dokumentasi API BBPVP Bekasi ([https://bbpvpbekasi.synology.me:8002/api-docs/#/](https://bbpvpbekasi.synology.me:8002/api-docs/#/)). Sedangkan untuk pendaftar **Eksternal/Publik**, menggunakan modul pengelolaan otentikasi bawaan sistem berbasis verifikasi Email/OTP.
+- **FR-AUTH-01:** Sistem menerapkan kerangka *Login Multi-Tipe*. Pengguna **Internal (Pegawai)** diwajibkan *login* menggunakan integrasi *Single Sign-On* (SSO) yang mengacu pada *endpoint* dokumentasi API BBPVP Bekasi ([https://bbpvpbekasi.synology.me:8002/api-docs](https://bbpvpbekasi.synology.me:8002/api-docs)). Sedangkan untuk pendaftar **Eksternal/Publik**, menggunakan modul pengelolaan otentikasi bawaan sistem berbasis verifikasi Email/OTP.
 - **FR-AUTH-02:** Sistem mengatur akses menu berdasarkan peran (*Role*) yang ditetapkan oleh Super Admin.
 
 ### 3.2 Master Data Ruangan
